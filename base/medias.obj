@@ -2,6 +2,13 @@
 {
 encapsulation:0,
 mimeType:"text/css",
+name:"base.less",
+typeid:37,
+uuid:"4D49A8CD-E44B-415C-B025-830E1B0AE2D2"
+},
+{
+encapsulation:0,
+mimeType:"text/css",
 name:"custom_servoy_theme_properties.less",
 typeid:37,
 uuid:"137D80B7-A42C-4D8C-A5FE-F823FB724B75"
@@ -135,12 +142,5 @@ encapsulation:0,
 name:"fontawesome/webfonts/fa-solid-900.woff2",
 typeid:37,
 uuid:"A5549D06-75D2-4948-848A-B90923AA2AE2"
-},
-{
-encapsulation:0,
-mimeType:"text/css",
-name:"scotia_base.less",
-typeid:37,
-uuid:"4D49A8CD-E44B-415C-B025-830E1B0AE2D2"
 }
 ]

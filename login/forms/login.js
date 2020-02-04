@@ -8,9 +8,10 @@
 function login() {
 	//Single tenant Security so use a 'Default' Tenant
 	tenantName = 'Default';
-//	if (application.isInDeveloper()) {
-//		return security.login('Admin', 1, ['Administrators']);		
-//	} 	
+	if (application.isInDeveloper()) {
+		userName = 'admin';
+		password = '123';
+	} 	
 	return _super.login.apply(this, arguments);
 }
 

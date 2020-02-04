@@ -69,3 +69,41 @@
 	background: @main-color;
     color: @main-color-inverse;
 }
+
+.ag-table.ag-theme-bootstrap .ag-root {
+    border: 1px solid @scrollbar-color;
+    
+}
+
+.ag-table.ag-theme-bootstrap .ag-header {
+	border: 1px solid @scrollbar-color;
+}
+
+.ag-table {
+	color: @text-color;
+    background-color: inherit;
+    font-style: normal;
+    .ag-header-cell {
+    	border-right: 0 !important;
+    }
+    .ag-row {
+		/*padding: 8px;*/
+	    border-top: 1px solid @scrollbar-color !important;
+    }
+	.ag-header {
+			color: @text-color;
+		    background-color: inherit;
+		    font-style: normal;
+		    padding-top: 6px;
+		    height: 41px !important;
+		&-row {
+		    font-weight: normal;
+		}
+	}
+}
+
+.grid{
+	border-radius:5px !important;
+	border:1px solid #e2e2e2 !important;
+}
+	

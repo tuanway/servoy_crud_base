@@ -1,4 +1,63 @@
-@import 'main.less';
+@import 'base.less';
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import 'common.less';
+
+/* Font & Font Sizes */
+@font-family: font-family: 'Roboto', sans-serif!important;
+
+/* @main-color: #0080c0; // default:#E9720B
+
+@main-color-inverse: #EEEEEC; // default:#FFF
+
+@secondary-color: #0080c0; // default:#18222C
+
+@secondary-color-inverse: white; // default:#FFF
+
+@secondary-color-light: black; // default:#464E56
+
+@secondary-color-dark: white; // default:#364453
+
+@text-color-inverse: #FFF; // default:@text-color
+
+@text-color-default: #FFF; // default:#333
+
+@color-grey: #ddd;
+
+@color-light-grey: #f5f5f5;
+
+@color-error: #BB0000;
+ */
+/* required fields */
+.required {
+	border:1px solid @color-error;
+}
+
+/* style fieldset */
+fieldset 
+{
+	border: 1px solid @color-grey !important;
+	margin: 0;
+	xmin-width: 0;
+	padding: 10px;       
+	position: relative;
+	border-radius:4px;
+	background-color: @color-light-grey;
+	padding-left:10px!important;
 	
+	legend
+	{
+		font-size:14px;
+		font-weight:bold;
+		margin-bottom: 0px; 
+		width: 35%; 
+		border: 1px solid @color-grey;
+		border-radius: 4px; 
+		padding: 5px 5px 5px 10px; 
+		background-color: white;
+	}
+}	
+
+.zoom { 
+    zoom: 1.5; 
+    -moz-transform: scale(1.5); 
+    -moz-transform-origin: 0 0;
+} 

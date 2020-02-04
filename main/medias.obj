@@ -2,13 +2,6 @@
 {
 encapsulation:0,
 mimeType:"text/css",
-name:"common.less",
-typeid:37,
-uuid:"6DBD170A-23B8-49DF-B9B1-0D1DC86B3649"
-},
-{
-encapsulation:0,
-mimeType:"text/css",
 name:"main.less",
 typeid:37,
 uuid:"4306CD4F-CF2D-412B-80A8-C2CC66339102"
