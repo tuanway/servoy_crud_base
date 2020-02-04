@@ -1,0 +1,71 @@
+// import of the custom servoy theme properties that will import the hidden servoy theme, this imported file is for customizing the default servoy theme properties 
+@import 'custom_servoy_theme_properties.less';
+
+//fix issue with font awesome on cloud
+@import 'fontawesome/css/all.css';
+@import 'fontawesome/css/v4-shims.css';
+
+// Add your custom less /css to this file you can use the same less properties that are specified in the above properties.less
+
+*,button:active,button:focus{
+	outline:0!important;	
+}
+
+.add_detail_btn {
+	background-color:@main-color;
+	color:@main-color-inverse;
+	border-radius:15px;
+}
+
+.delete_btn:before{
+	font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f2ed";
+}
+
+.ag-theme-bootstrap .ag-side-bar .ag-side-buttons{
+	display:none;
+}
+ 
+ .form_title {
+	font-size: 17px;
+	font-weight: bold;
+	border-bottom:1px solid #e2e2e2;
+}
+ 
+.grid_overlay {
+	background-color:#e2e2e2;
+	opacity:0.25;
+	z-index: 1000!important;
+	
+}
+
+.search_toolbar_btn, .toolbar_btn ,.toolbar_btn:hover,.toolbar_btn:active,.toolbar_btn:focus {	
+	border:none!important;
+	z-index:100!important;
+}
+
+.toolbar_btn:hover,.toolbar_btn:active,.toolbar_btn:focus {
+	background: none!important;
+	outline:none!important;
+}
+
+.search_box{
+	border-radius:3px;
+}
+
+.search_toolbar_btn{
+	background:none!important;
+}
+
+.grid{
+	border-radius:5px;
+	border:1px solid #e2e2e2;
+}
+
+.required {
+	border:1px solid @main-color;
+}
+
+.svy-dialog .window-header{
+	background: @main-color;
+    color: @main-color-inverse;
+}

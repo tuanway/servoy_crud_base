@@ -1,0 +1,34 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+encapsulation:44,
+items:[
+{
+cssPosition:"5,-1,-1,5,130,25",
+labelFor:"orderid",
+name:"label",
+text:"A Label",
+transparent:true,
+typeid:7,
+uuid:"93059842-3671-44CC-A92B-576782A9D905"
+},
+{
+cssPosition:"5,-1,-1,145,230,25",
+dataProviderID:"test",
+editable:false,
+name:"field",
+placeholderText:"A Field",
+typeid:4,
+uuid:"C0E5B9E2-5C29-4D8C-BB97-1BF4B175A255"
+},
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"D6A419F4-09EF-4727-A915-AE5976A93110"
+}
+],
+name:"styleGuide",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"93AD950E-8A0B-4B75-A91C-D903D531EB62"

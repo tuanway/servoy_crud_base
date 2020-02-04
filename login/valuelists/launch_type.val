@@ -1,0 +1,8 @@
+addEmptyValue:1,
+customValues:"Incident|Incident\
+Supervision|Supervision",
+displayValueType:12,
+name:"launch_type",
+realValueType:12,
+typeid:34,
+uuid:"6AC8E50C-77F4-439F-9D9E-523CAE899222"

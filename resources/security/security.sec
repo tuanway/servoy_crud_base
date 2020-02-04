@@ -1,0 +1,12 @@
+groups:[
+"Administrators",
+"ReadOnly"
+],
+usergroups:{
+Administrators:[
+"1BCC8066-E98C-431B-B33B-7EF3DEAED164"
+]
+},
+users:[
+{name:"admin",password_hash:"PBKDF2:7441BD195EC1DBB7:9999:AB50E5BFC1AEE89B873C69F22FD0F1795C7754F3",user_uid:"1BCC8066-E98C-431B-B33B-7EF3DEAED164"}
+]

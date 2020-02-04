@@ -1,0 +1,52 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+extendsID:"2F947661-4EB1-4F09-A497-B608122CCF33",
+items:[
+{
+cssPosition:"0,-1,-1,45,33,35",
+customProperties:"design:{\
+crud:\"true\"\
+}",
+name:"remove",
+onActionMethodID:"35CE341D-1C0E-4D13-AC83-F1704284B3A5",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+styleClass:"fa fa-trash-o toolbar_btn",
+toolTipText:"Remove a Record",
+typeid:7,
+uuid:"163D5149-0D5F-4936-BC39-81E9C1F58C5A"
+},
+{
+cssPosition:"0,-1,-1,5,33,35",
+customProperties:"design:{\
+crud:\"true\"\
+}",
+name:"add",
+onActionMethodID:"8CA0EFBE-6015-4B95-8B86-FCD60964BE40",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+styleClass:"fa fa-plus toolbar_btn",
+toolTipText:"Add a Record",
+typeid:7,
+uuid:"B8F5F344-2E7D-42F1-9E2C-0CC7E3FF79B7"
+},
+{
+cssPosition:"35,0,0,0,-1,-1",
+extendsID:"3D0C1894-DB4D-4E99-8E2A-A6B4268CEB6F",
+json:{
+cssPosition:{
+bottom:"0",
+height:"-1",
+left:"0",
+right:"0",
+top:"35",
+width:"-1"
+}
+},
+typeid:47,
+uuid:"EF41A137-F0B8-4A6E-A29E-5E00DA813634"
+}
+],
+name:"grid_crud",
+typeid:3,
+uuid:"66A5F0EC-1D55-4249-AC76-0EF9760A6C77"

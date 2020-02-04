@@ -1,0 +1,9 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+encapsulation:44,
+extendsID:"F020F205-4AD9-4775-AA3C-C201A5ABEBE4",
+name:"crud_base",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"5C50D552-F15E-41B7-B0DC-4327D4AC455E"

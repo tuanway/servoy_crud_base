@@ -1,0 +1,12 @@
+customProperties:"formComponent:false",
+encapsulation:44,
+name:"base",
+navigatorID:"-1",
+onElementDataChangeMethodID:"A7603122-B8D8-403A-995B-33EED3042A85",
+onHideMethodID:"003251F1-47D0-4BCD-87B1-A9F7A9BAC4F3",
+onLoadMethodID:"70C023B7-EFA5-4F91-B01F-53B97D85509A",
+onRecordSelectionMethodID:"5A7F0EBA-7899-4756-B76D-06ABDB4DC065",
+onShowMethodID:"14174DB9-EE12-4C47-B5F1-B83317D24DAF",
+showInMenu:true,
+typeid:3,
+uuid:"F020F205-4AD9-4775-AA3C-C201A5ABEBE4"

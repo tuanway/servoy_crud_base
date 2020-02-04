@@ -1,0 +1,23 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+dataSource:"mem:customize",
+extendsID:"2F947661-4EB1-4F09-A497-B608122CCF33",
+items:[
+{
+extendsID:"3D0C1894-DB4D-4E99-8E2A-A6B4268CEB6F",
+json:{
+columns:[
+{
+dataprovider:"el_name",
+headerText:"Element Name",
+svyUUID:"92B0B880-62AB-499F-9468-C0C8AAF8291F"
+}
+]
+},
+typeid:47,
+uuid:"5E2B55E1-14DE-4B70-91B7-C35FDA9B5CB3"
+}
+],
+name:"customize_list",
+typeid:3,
+uuid:"3CAF34AB-A953-4D05-AEB5-5A1DF4BDDCCC"
