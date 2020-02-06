@@ -1,0 +1,35 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+dataSource:"db:/example_data/orders",
+extendsID:"2F947661-4EB1-4F09-A497-B608122CCF33",
+items:[
+{
+extendsID:"3D0C1894-DB4D-4E99-8E2A-A6B4268CEB6F",
+json:{
+columns:[
+{
+dataprovider:"orderid",
+headerText:"Order ID",
+svyUUID:"A9290244-11BF-42C6-A01C-F61C9AF8D43B"
+},
+{
+dataprovider:"orderdate",
+format:"MM/dd/yyyy",
+headerText:"Order Date",
+svyUUID:"EBEDD40F-B208-468C-8DDF-D7B3262CBF41"
+}
+]
+},
+typeid:47,
+uuid:"CC3B7D0F-1336-4685-ACCF-87D844274E91"
+},
+{
+extendsID:"AFBAE287-2DC9-432D-A39B-D7A13254574B",
+height:480,
+typeid:19,
+uuid:"CEA0F375-D987-4787-945D-1BCFD6027FCB"
+}
+],
+name:"orders_list",
+typeid:3,
+uuid:"F6FBB3FA-7E53-4F20-B287-AD45C663867F"

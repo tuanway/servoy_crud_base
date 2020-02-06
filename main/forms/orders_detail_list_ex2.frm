@@ -1,0 +1,66 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+dataSource:"db:/example_data/order_details",
+extendsID:"2F947661-4EB1-4F09-A497-B608122CCF33",
+items:[
+{
+cssPosition:"0,-1,-1,5,33,35",
+customProperties:"design:{\
+crud:\"true\"\
+}",
+name:"add",
+onActionMethodID:"8CA0EFBE-6015-4B95-8B86-FCD60964BE40",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+styleClass:"fa fa-plus toolbar_btn",
+toolTipText:"Add a Record",
+typeid:7,
+uuid:"102BE5C6-3C5F-441F-A8B9-9BC2CCE77D77"
+},
+{
+cssPosition:"0,-1,-1,45,33,35",
+customProperties:"design:{\
+crud:\"true\"\
+}",
+name:"remove",
+onActionMethodID:"35CE341D-1C0E-4D13-AC83-F1704284B3A5",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+styleClass:"fa fa-trash-o toolbar_btn",
+toolTipText:"Remove a Record",
+typeid:7,
+uuid:"4C4048E7-A2EB-4F3C-B7D5-D269CE7901D4"
+},
+{
+cssPosition:"35,0,0,0,-1,-1",
+extendsID:"3D0C1894-DB4D-4E99-8E2A-A6B4268CEB6F",
+json:{
+columns:[
+{
+dataprovider:"order_details_to_products.productname",
+headerText:"Product Name",
+svyUUID:"25D01C89-8EB5-426C-B857-2CE9CB463DDC"
+},
+{
+dataprovider:"unitprice",
+format:"¤#.00",
+headerText:"Price",
+svyUUID:"EEC42780-220F-4A8C-BC9C-DCFBC9FF9735"
+}
+],
+cssPosition:{
+bottom:"0",
+height:"-1",
+left:"0",
+right:"0",
+top:"35",
+width:"-1"
+}
+},
+typeid:47,
+uuid:"6CFD35CE-8241-4684-AC01-2BA7536B8FE2"
+}
+],
+name:"orders_detail_list_ex2",
+typeid:3,
+uuid:"D22A5667-5EF9-4D82-9803-896DD119F801"
