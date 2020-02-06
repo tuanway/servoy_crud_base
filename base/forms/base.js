@@ -62,7 +62,7 @@ function updateUI() {
 		if (elem.getElementType() == 'servoyextra-table' || elem.getElementType() == 'aggrid-groupingtable') {
 			//get form context
 			var ctx = controller.getFormContext()
-			application.output(ctx);
+			
 			
 			//if no relationship
 //			application.output(foundset.getRelationName());
@@ -77,8 +77,16 @@ function updateUI() {
 					}
 				}
 				elements['grid_overlay'].visible = scopes.base.editEnabled;
-				
+
 				if (ctx.getMaxRowIndex() == 3){
+					//if this is first form in layout, allow editing
+					elements['grid_overlay'].visible = false; 
+				}
+				
+				if (ctx.getMaxRowIndex() == 4){
+					//are we extending a tab type form and is also first form in that layout allow editing
+					var t = solutionModel.getForm(ctx.getRowAsArray(3)[1]).extendsForm.name;
+					if (t == 'tab_vertical' || t == 'tab_horizontal')
 					elements['grid_overlay'].visible = false; 
 				}
 				
@@ -97,7 +105,7 @@ function updateUI() {
 						for (var n = 0; n < allTabs[k].getTabs().length; n++) {
 							if (allTabs[k].getTabs()[n].containsForm.name == controller.getName()) {
 								if (allTabs[k].getTabs()[n].relationName) {
-//									application.output(allTabs[k].getTabs()[n].relationName)
+									application.output(allTabs[k].getTabs()[n].relationName)
 									//if relationship exists for tab, but no parent record, disable editing for child
 									elements['grid_overlay'].visible = true;
 								}
