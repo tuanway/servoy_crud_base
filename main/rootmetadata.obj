@@ -1,6 +1,6 @@
 fileVersion:51,
-mustAuthenticate:true,
-name:"scotia",
+mustAuthenticate:false,
+name:"main",
 solutionType:1024,
 typeid:43,
 uuid:"FB86BCFB-E8DD-4E94-9D27-3670820891DA"
