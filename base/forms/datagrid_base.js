@@ -15,7 +15,8 @@
  */
 function onColumnDataChange(foundsetindex, columnindex, oldvalue, newvalue) {
 	_super.onElementDataChange(oldvalue,newvalue,null)
-	return false;
+	return true;
+	
 }
 
 /**

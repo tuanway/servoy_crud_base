@@ -62,9 +62,10 @@ function updateUI() {
 		if (elem.getElementType() == 'servoyextra-table' || elem.getElementType() == 'aggrid-groupingtable') {
 			//get form context
 			var ctx = controller.getFormContext()
-
+			application.output(ctx);
+			
 			//if no relationship
-			//application.output(foundset.getRelationName())
+//			application.output(foundset.getRelationName());
 			if (!foundset.getRelationName()) {
 				if (!security.canDelete(foundset.getDataSource())) {
 					/** @type {Array} */
@@ -76,7 +77,11 @@ function updateUI() {
 					}
 				}
 				elements['grid_overlay'].visible = scopes.base.editEnabled;
-
+				
+				if (ctx.getMaxRowIndex() == 3){
+					elements['grid_overlay'].visible = false; 
+				}
+				
 				//check if relationship exists in parent tab
 				try {
 					var pr;
@@ -88,7 +93,7 @@ function updateUI() {
 					}
 					var allTabs = solutionModel.getForm(pr).getTabPanels();
 					for (var k = 0; k < allTabs.length; k++) {
-
+						
 						for (var n = 0; n < allTabs[k].getTabs().length; n++) {
 							if (allTabs[k].getTabs()[n].containsForm.name == controller.getName()) {
 								if (allTabs[k].getTabs()[n].relationName) {
