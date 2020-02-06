@@ -23,7 +23,7 @@ function onLoad(event) {
 
 /** 
  * @param event
- * @private 
+ * @protected 
  * @properties={typeid:24,uuid:"DEB48F12-DB76-4F31-B6C5-C6C32CD99057"}
  */
 function onOpenHandler(event) {
