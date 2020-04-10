@@ -3,9 +3,7 @@
 	<buildpathentry excluding=".stp/|medias/" kind="src" path=""/>
 	<buildpathentry exported="true" kind="prj" path="/datamodel"/>
 	<buildpathentry exported="true" kind="prj" path="/svyNavigation"/>
-	<buildpathentry exported="true" kind="prj" path="/svyNavigationUX"/>
 	<buildpathentry exported="true" kind="prj" path="/svySearch"/>
 	<buildpathentry exported="true" kind="prj" path="/svySecurity"/>
-	<buildpathentry exported="true" kind="prj" path="/svySecurityUX"/>
 	<buildpathentry exported="true" kind="prj" path="/svyUtils"/>
 </buildpath>

@@ -12,7 +12,6 @@
 "/main/forms/example_2.frm",
 "/main/forms/example_3.frm",
 "/main/forms/example_4.frm",
-"/main/forms/main.frm",
 "/main/forms/order_detail_main.frm",
 "/main/forms/orders_customers_vertical.frm",
 "/main/forms/orders_detail_list.frm",
@@ -28,6 +27,13 @@
 "/main/forms/orders_products_vertical_ex2.frm",
 "/main/forms/orders_vertical.frm",
 "/main/forms/orders_vertical_ex2.frm"
+]
+},
+{
+"name":"home",
+"paths":[
+"/main/.project",
+"/main/forms/main.frm"
 ]
 },
 {
