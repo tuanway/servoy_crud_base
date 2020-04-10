@@ -4,12 +4,10 @@
  *
  * @properties={typeid:24,uuid:"58E900DC-0D09-4EDF-8778-ED109EA17207"}
  */
-function onLoad(event) {
-	var menu =
-	//register for navigation event
-	scopes.svyNavigation.addNavigationListener(onOpenHandler);
-
-	menu = [{
+function onLoad(event) {		
+	_super.onLoad(event);
+	
+	var menu = [{
 		id: 'intro',
 		text: "Home",
 		iconStyleClass: "glyphicon glyphicon glyphicon-menu-hamburger"
