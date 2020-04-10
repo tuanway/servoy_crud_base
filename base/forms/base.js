@@ -83,7 +83,7 @@ function updateUI() {
 					elements['grid_overlay'].visible = false; 
 				}
 				
-				if (ctx.getMaxRowIndex() == 4){
+				if (ctx.getMaxRowIndex() == 4 && elem.getElementType() == 'aggrid-groupingtable'){
 					//are we extending a tab type form and is also first form in that layout allow editing
 					var t = solutionModel.getForm(ctx.getRowAsArray(3)[1]).extendsForm.name;
 					if (t == 'tab_vertical' || t == 'tab_horizontal')
